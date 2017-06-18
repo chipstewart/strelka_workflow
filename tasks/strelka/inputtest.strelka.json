@@ -1,0 +1,12 @@
+{
+  "Strelka.Strelka_task.tumor_bam": "gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/THCA/DNA/WXS/BI/ILLUMINA/C499.TCGA-DJ-A2QB-01A-11D-A19J-08.2.bam",
+  "Strelka.Strelka_task.tumor_bai": "gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/THCA/DNA/WXS/BI/ILLUMINA/C499.TCGA-DJ-A2QB-01A-11D-A19J-08.2.bam.bai",
+  "Strelka.Strelka_task.normal_bam": "gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/THCA/DNA/WXS/BI/ILLUMINA/C499.TCGA-DJ-A2QB-01A-11D-A19J-08.2.bam",
+  "Strelka.Strelka_task.normal_bai": "gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/THCA/DNA/WXS/BI/ILLUMINA/C499.TCGA-DJ-A2QB-01A-11D-A19J-08.2.bam.bai",
+  "Strelka.Strelka_task.id": "TCGA-DJ-A2QB-01A",
+  "Strelka.Strelka_task.datatype": "exome",
+  "Strelka.Strelka_task.genome": "gs://firecloud-tcga-open-access/tutorial/reference/Homo_sapiens_assembly19.fasta",
+  "Strelka.Strelka_task.genome_dict": "gs://firecloud-tcga-open-access/tutorial/reference/Homo_sapiens_assembly19.dict",
+  "Strelka.Strelka_task.genome_index": "gs://firecloud-tcga-open-access/tutorial/reference/Homo_sapiens_assembly19.fasta.fai",
+  "Strelka.Strelka_task.preemptible_limit": "4"
+}

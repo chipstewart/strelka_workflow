@@ -1,0 +1,10 @@
+[task]
+name: strelkamaf2tcgamaf
+author: Chip Stewart
+# Command line to be invoked to run this job
+command: sh <libdir>/strelkamaf2tcgamaf.sh ${t "-i " id} ${f "-m " maf} ${t "-x " output.extension} ${t,o "-o " output}
+description: convert strelka allele counting fields to t_alt_count and t_ref_count
+projectDirs: .
+installTarget = firehose
+
+[job.spec.memory]

@@ -1,0 +1,90 @@
+# Written by Hydrant
+# 2014-10-24 13:56:54
+
+name=RunStrelka
+description=run strelka
+author="louisb"
+commandLine=sh <libdir>runStrelka.sh <libdir>  <tumor.bam> <normal.bam> <ref> <individual.id> <config.file>
+fileFormat=bam
+
+p1_name=tumor.bam
+p1_description=the tumor bam
+p1_default_value=
+p1_fileFormat=
+p1_optional=
+p1_prefix_when_specified=
+p1_MODE=IN
+p1_TYPE=FILE
+p1_type=java.io.File
+p1_value=
+
+p2_name=normal.bam
+p2_description=the normal bam
+p2_default_value=
+p2_fileFormat=
+p2_optional=
+p2_prefix_when_specified=
+p2_MODE=IN
+p2_TYPE=FILE
+p2_type=java.io.File
+p2_value=
+
+p3_name=ref
+p3_description=the reference genome
+p3_default_value=
+p3_fileFormat=
+p3_optional=
+p3_prefix_when_specified=
+p3_MODE=IN
+p3_TYPE=FILE
+p3_type=java.io.File
+p3_value=
+
+p4_name=individual.id
+p4_description=the individual id
+p4_default_value=
+p4_fileFormat=
+p4_optional=
+p4_prefix_when_specified=
+p4_MODE=
+p4_TYPE=
+p4_type=java.lang.String
+p4_value=
+
+p5_name=config.file
+p5_description=
+p5_default_value=strelka_config_bwa_cga_exome.ini
+p5_fileFormat=
+p5_optional=
+p5_prefix_when_specified=
+p5_MODE=
+p5_TYPE=
+p5_type=java.lang.String
+p5_value=
+
+p6_name=job.spec.memory
+p6_description=
+p6_default_value=
+p6_fileFormat=
+p6_optional=
+p6_prefix_when_specified=
+p6_MODE=
+p6_TYPE=
+p6_type=java.lang.String
+p6_value=
+
+cpuType=any
+JVMLevel=1.6
+os=any
+pipelineModel=
+privacy=
+publicationDate=10/24/2014 13:56
+quality=
+requiredPatchLSIDs=
+requiredPatchURLs=
+serializedModel=
+taskType=
+userid=
+LSID=urn:lsid:broadinstitute.org:cancer.genome.analysis:10439:11
+executor=LSF
+default.memory.gigabytes=4
