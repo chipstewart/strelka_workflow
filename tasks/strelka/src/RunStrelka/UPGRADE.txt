@@ -1,0 +1,3 @@
+When installing a new version of Strelka, remember to copy the file from strelka_workflow_1.0.11/bin/configureStrelkaWorkflow_cga.pl to the new workflow.
+
+It fixes a naming issue with .bai files.

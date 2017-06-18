@@ -1,0 +1,22 @@
+# Written by Hydrant
+# 2014-06-23 14:09:45
+
+name=AnnotateStrelkaVCF
+description=annotate strelka vcfs
+
+cpuType=any
+JVMLevel=1.6
+os=any
+pipelineModel=
+privacy=
+publicationDate=06/23/2014 14:09
+quality=
+requiredPatchLSIDs=
+requiredPatchURLs=
+serializedModel=
+taskType=
+userid=
+LSID=urn:lsid:broadinstitute.org:cancer.genome.analysis:10444:21
+executor=LSF
+default.memory.gigabytes=4
+author=louisb
